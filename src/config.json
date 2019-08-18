@@ -1,0 +1,11 @@
+{
+    "sessionSecret": "$sh$00$sh.2001546541010CcccC.shhh$$$",
+    "development": {
+        "mongoUrl": "mongodb://mongodb/ts-base",
+        "dbLoadIntent": 5
+    },
+    "production": {
+        "mongoUrl": "mongodb://127.0.0.1/ts-base",
+        "dbLoadIntent": 10
+    }
+}
