@@ -60,15 +60,15 @@ class BaseCrudRepository {
         return new this.model(record).save();
     }
 
-    async Remove(id: ObjectId) {
+    async Remove(id: ObjectId|string) {
         return this.model.update({ _id: id }, { $set: { removed: true } });
     }
 
-    async Update(id: ObjectId, record: any) {
+    async Update(id: ObjectId|string, record: any) {
         return this.model.update({ removed: false, _id: id }, { $set: record });
     }
 
-    async Erase(id: ObjectId) {
+    async Erase(id: ObjectId|string) {
         return this.model.remove({ _id: id });
     }
 
