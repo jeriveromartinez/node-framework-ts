@@ -10,8 +10,6 @@
     "start": "node ./dist/app.js"
   },
   "dependencies": {
-    "@types/bcryptjs": "^2.4.2",
-    "@types/mongoose": "^5.5.12",
     "bcryptjs": "^2.4.3",
     "bluebird": "^3.5.5",
     "body-parser": "^1.19.0",
@@ -26,6 +24,9 @@
     "@types/express-session": "^1.15.11",
     "@types/node": "^10.12.18",
     "@types/request": "^2.48.1",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.6",
+    "@types/mongoose": "^5.5.12",
     "ts-node-dev": "^1.0.0-pre.32",
     "typescript": "^3.2.4"
   }
